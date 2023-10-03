@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Etusivu</title>
+</head>
+<body>
+
+    <form>
+        <h1>
+            Tämä on etusivu
+        </h1>
+        <h3>
+            alla olevat painikkeet vievät molemmat seuraavalle sivulle (info.html)
+        </h3>
+
+        <!-- Tässä on button elementti, jota painaessa (onclick=) sivusto siirtyy 'info.html'- sivulle--> 
+        <button type="button" onclick="window.location.href='info.html';">info - sivu</button>
+        
+        <!-- Tässä taas <a> elementti, joka myös siirtää seuraavalle sivulle sitä painaessa, ja kuten näet sivustosta, css-tyyleillä siitä saa
+            samannäköisen kun "button" elementistä! -->
+        <a class="link" href="info.html">info - sivu</a>
+    </form>
+
+</body>
+</html>
